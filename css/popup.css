@@ -1,0 +1,121 @@
+body {
+	width: 600px;
+	background-color: #ffffff;
+}
+#container{
+	width: 600px;
+	margin: 0px auto;
+	background-color: #ffffff;
+	padding-top: 10px;
+}
+#container div#logo{
+	padding: 0;
+	float: left;
+	background-image: url(../img/logo_senzabordo.png);
+	height: 70px;
+	width: 70px;
+}
+#container div#title{
+	padding-top: 5px;
+	padding-left: 30px;
+	float: left;
+	width: 430px;
+	font-family: "Lucida Grande", "Arial", "Helvetica", sans-serif;
+	font-size: 16px;
+  	font-weight: bold;
+  	text-transform: uppercase;
+  	color: #ababab;
+
+}
+#content{
+	margin-left: 0px;
+	padding-left: 10px;
+	width: 600px;
+}
+#content h2 { 
+	font-family: "Lucida Grande", "Arial", "Helvetica", sans-serif;
+	font-size: 12px;
+  	font-weight: bold;
+  	color: #ababab;
+  	text-transform: uppercase;
+}
+
+#content p{
+	font-family: "Lucida Grande", "Arial", "Helvetica", sans-serif;
+	font-size: 12px;
+  	font-weight: normal;
+  	color: #ababab;
+  	background-color: white;
+  	text-transform: none;
+}
+#content p.text{
+	font-size: 14px;
+	line-height: 18px;
+  	font-weight: normal;
+  	text-align: justify;
+  	
+}
+
+#content div.paragraph{
+	margin: 5px;
+	width: 540px;
+	float:left;
+}
+#content div.paragraph a{
+	font-family: "Lucida Grande", "Arial", "Helvetica", sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	background-color: #ffffff;
+	text-decoration: none;
+	color: #cc0000;
+	padding: 0px;
+}
+#content div.paragraph a:visited {
+	text-decoration: none;
+}
+#content div.paragraph a:hover {
+	cursor: url(../img/zoom.cur), crosshair; 
+}
+#content div.paragraph a.popuplink:hover {
+	background-color: #ffffff;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+#content div.photo{
+	float:left;
+	margin-right: 10px;
+}
+#content div.photo div.legend{
+   width: 150px;
+   height: 50px;
+	margin-bottom: 10px;
+	font-family: "Lucida Grande", "Arial", "Helvetica", sans-serif;
+	font-size: 12px;
+  	font-weight: normal;
+  	color: #ababab;
+  	background-color: white;
+  	text-transform: none;
+}
+#content div.photo img{
+	border: none;
+}
+#content ul, #content li {
+	list-style-image: url("http://png.com/ellipse.png");
+	margin: 5px;
+	padding: 5px;
+  	
+
+}
+#content ul li {
+	/* border-bottom: 1px solid #e0e1cf; */
+  	color: #ababab;
+  	background-color: white;
+	font-size: 13px;
+	font-family: "Lucida Grande", "Arial", "Helvetica", sans-serif;
+  	font-weight: bold;
+} 
+
+
+
+

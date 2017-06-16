@@ -1,0 +1,229 @@
+/* CSS CODE */
+body {
+	width: 1024px;
+	background-color: #505050;
+	color: #cc0000; 
+}
+ul, li {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	font-family: "Lucida Grande", "Arial", "Helvetica", sans-serif;
+	font-size: 12px;
+  	font-weight: normal;
+} 
+ul li a{
+	background-color: transparent;
+	text-decoration: none;
+  	font-weight: bold;
+	color: #ababab;
+	display: block;
+	padding: 0px;
+}
+ul li a:visited {
+	text-decoration: none;
+}
+ul li a.normalLink:hover{
+	text-decoration: underline;
+	
+}
+
+
+#container{
+	width: 800px;
+	margin: 0px auto;
+	background-color: #ffffff;
+	background-image: url(../img/sfondo.png);
+	background-repeat: repeat-y;
+	padding-top: 10px;
+}
+#top{
+	background-color: #cc0000; 
+	height: 164px;
+	width: 784px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+}
+#top div#menu{
+	padding: 0;
+	float:left;
+	margin-left: 9px;
+	height: 154px;
+	width: 171px;
+}
+#menu ul, #menu li {
+	list-style-type: none;
+	margin: 0px;
+	padding: 5px;
+  	
+
+}
+#menu ul li {
+	/* border-bottom: 1px solid #e0e1cf; */
+	font-size: 12px;
+	font-family: "Lucida Grande", "Arial", "Helvetica", sans-serif;
+  	font-weight: normal;
+} 
+  	
+
+#menu ul li a{
+	border-bottom: 1px solid #ababab;
+}
+#menu ul li a.active{
+	color: #ffffff;
+}
+#menu ul li a:hover {
+	color: #ffffff;
+}
+#menu ul li a:visited {
+	text-decoration: none;
+}
+
+#top div#logo{
+	padding: 0;
+	float: left;
+	background-image: url(../img/top.png);
+	height: 154px;
+	width: 470px;
+}
+#content{
+	margin-left: 210px;
+	padding-left: 10px;
+	width: 560px;
+}
+#content div.paragraph{
+	margin: 5px;
+	width: 500px;
+	float:left;
+	
+}
+#content h1{
+	font-family: "Lucida Grande", "Arial", "Helvetica", sans-serif;
+	font-size: 14px;
+  	font-weight: bold;
+  	text-transform: uppercase;
+}
+#content h1.subtitle{
+  	font-weight: normal;
+  	text-transform: none;
+  	padding: 4px;
+  	border: 1px solid #ababab;
+}
+
+#content h2 { 
+	font-family: "Lucida Grande", "Arial", "Helvetica", sans-serif;
+	font-size: 12px;
+  	font-weight: bold;
+  	color: #ababab;
+  	text-transform: uppercase;
+}
+#content p{
+	font-family: "Lucida Grande", "Arial", "Helvetica", sans-serif;
+	font-size: 12px;
+  	font-weight: normal;
+  	color: #ababab;
+  	background-color: white;
+  	text-transform: none;
+  		
+
+}
+#content p.text{
+	font-size: 14px;
+	line-height: 18px;
+  	font-weight: normal;
+  	text-align: justify;
+  	
+}
+
+#content div.photo{
+	float:left;
+	margin-right: 10px;
+}
+#content div.photo img{
+	border: none;
+}
+
+
+
+#leftnav{
+	float: left;
+	width: 180px;
+	margin-left: 10px; 
+	padding: 0em;
+
+}
+#leftnav div.box{
+	float: left;
+	width: 180px;
+	margin-left: 0px;
+	margin-bottom: 20px;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #ababab;
+}
+div.box ul, div.box li {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+  	
+
+}
+div.box ul li {
+	font-family: "Lucida Grande", "Arial", "Helvetica", sans-serif;
+	font-size: 12px;
+  	font-weight: normal;
+} 
+
+#leftnav div.box p{
+	font-size: 12px;
+	line-height: 13px;
+  	text-align: left;
+	font-family: "Lucida Grande", "Arial", "Helvetica", sans-serif;
+  	font-weight: normal;
+  	padding-left: 5px;
+  	color: #ababab;
+}
+#leftnav div.box p.title{
+  	font-weight: bold;
+  	text-align: center;
+  	text-transform: uppercase;
+}
+#leftnav div.box div.logo{
+	background-image: url(../img/logo_senzabordo.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	margin-left: 55px;
+	width: 70px;
+	height: 70px; 
+}
+
+#footer{
+	font-family: "Lucida Grande", "Arial", "Helvetica", sans-serif;
+	font-size: 11px;
+	text-align: center;
+	clear: both; 
+	margin-top: 4em;
+	padding: .5em;
+	color: #ababab;
+	background-color: #ffffff; 
+	border-top: 1px solid #e0e1cf;
+}
+#footer a{
+	font-weight: bold;
+	background-color: #ffffff;
+	text-decoration: none;
+	color: #cc0000;
+	padding: 0px;
+}
+#footer a:visited {
+	text-decoration: none;
+}
+#footer a:hover {
+	background-color: #ffffff;
+	text-decoration: underline;
+}
+
+
+
+
